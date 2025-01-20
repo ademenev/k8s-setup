@@ -9,7 +9,7 @@ by Olorunfemi Kawonise
 If there is no unpriveleged user (for example Hetzner creates servers with root SSH), execute as root:
 
 ```
-sh add_user.sh username_here 'puplic_ssh_key_here'
+sh add_user.sh username_here 'public_ssh_key_here'
 ```
 
 That will create a user, setup SSH login and add the user to sudoers. Now switch to unpriveleged user.
