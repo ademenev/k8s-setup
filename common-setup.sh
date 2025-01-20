@@ -58,6 +58,6 @@ systemctl start kubelet
 systemctl enable kubelet.service
 
 
-# Assume internal network is 10.0.0.0
-echo $(hostname -I | xargs -n1 | grep ^10.) $(hostname) >> /etc/hosts
+# Assume internal network is 10.1.0.0
+echo $(hostname -I | xargs -n1 | grep ^10.1) $(hostname) >> /etc/hosts
 
